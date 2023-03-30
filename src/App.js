@@ -21,7 +21,6 @@ import Login from "./pages/Login";
 import Help from "./pages/Help";
 import Header from "./components/header/Header";
 import FAQ from "./pages/FAQ";
-import PreHeader from "./components/preheader/PreHeader";
 import Footer from "./components/footer/Footer";
 import Dashboard from "./pages/dashboard/Dashboard";
 import AddProduct from "./pages/addProduct/AddProduct";
