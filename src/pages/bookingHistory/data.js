@@ -5,7 +5,7 @@ export const Data = [
     customer: 21,
     equipment: {
       id: 29,
-      url: "http://localhost:8001/api/equipment/29",
+      url: "http://localhost:8000/api/equipment/",
       manufacturer: "ATYZ",
       title: "XYZ",
       image:
@@ -30,7 +30,7 @@ export const Data = [
     customer: 21,
     equipment: {
       id: 29,
-      url: "http://localhost:8001/api/equipment/29",
+      url: "http://localhost:8000/api/equipment/",
       manufacturer: "ATYZ",
       title: "XYZ",
       image:
@@ -55,7 +55,7 @@ export const Data = [
     customer: 21,
     equipment: {
       id: 29,
-      url: "http://localhost:8001/api/equipment/29",
+      url: "http://localhost:8000/api/equipment/",
       manufacturer: "ATYZ",
       title: "XYZ",
       image:
@@ -80,7 +80,7 @@ export const Data = [
     customer: 21,
     equipment: {
       id: 29,
-      url: "http://localhost:8001/api/equipment/29",
+      url: "http://localhost:8000/api/equipment/",
       manufacturer: "ATYZ",
       title: "XYZ",
       image:
@@ -105,7 +105,7 @@ export const Data = [
     customer: 21,
     equipment: {
       id: 29,
-      url: "http://localhost:8001/api/equipment/29",
+      url: "http://localhost:8000/api/equipment/29",
       manufacturer: "ATYZ",
       title: "XYZ",
       image:
@@ -130,7 +130,7 @@ export const Data = [
     customer: 21,
     equipment: {
       id: 29,
-      url: "http://localhost:8001/api/equipment/29",
+      url: "http://localhost:8000/api/equipment/29",
       manufacturer: "CLAAS",
       title: "XYZ",
       image:
@@ -155,7 +155,7 @@ export const Data = [
     customer: 21,
     equipment: {
       id: 29,
-      url: "http://localhost:8001/api/equipment/29",
+      url: "http://localhost:8000/api/equipment/29",
       manufacturer: "ATYZ",
       title: "XYZ",
       image:
@@ -180,7 +180,7 @@ export const Data = [
     customer: 21,
     equipment: {
       id: 29,
-      url: "http://localhost:8001/api/equipment/29",
+      url: "http://localhost:8000/api/equipment/29",
       manufacturer: "Mahindra",
       title: "XYZ",
       image:
@@ -205,7 +205,7 @@ export const Data = [
     customer: 21,
     equipment: {
       id: 29,
-      url: "http://localhost:8001/api/equipment/29",
+      url: "http://localhost:8000/api/equipment/29",
       manufacturer: "ATYZ",
       title: "XYZ",
       image:

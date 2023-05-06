@@ -3,7 +3,10 @@ import instance from "./config";
 import Cookies from "js-cookie";
 import axios from "axios";
 
-const url = "https://krishi-sadhan-app.herokuapp.com";
+// const url = "https://krishi-sadhan-app.herokuapp.com";
+const url = "http://localhost:8000";
+
+
 
 export const getBooking = async () => {
   try {
@@ -88,7 +91,7 @@ export const BookingUpdate = async (status, id) => {
           "Content-Type": "application/json",
           Authorization: `"Bearer ${Cookies.get('access-token')}`
       };
-      return await axios.patch(`https://krishi-sadhan-app.herokuapp.com/api/booking/update/${id}/` , { status }, { headers });
+      return await axios.patch(`http://localhost:8000/api/booking/update/${id}/` , { status }, { headers });
   } catch(error) {
       console.log('Error while calling getBookingDetail API', error);
   }
