@@ -18,10 +18,10 @@ const AddProduct = () => {
   const navigate = useNavigate();
   const [data, setData] = useState({
     owner: 54,
-    manufacturer: 0,
+    manufacturer: "",
     title: "",
     description: "",
-    equipment_type: 1,
+    equipment_type: "x  ",
     available_start_time: new Date().toISOString().slice(0, 10),
     available_end_time: new Date().toISOString().slice(0, 10),
     equipment_location: "",
@@ -207,6 +207,7 @@ const AddProduct = () => {
                 className="w-32"
               >
                 <option disabled>Choose Equipment Type</option>
+                <option>Tractor</option>
                 {equipments.map((item, i) => {
                   return (
                     <option key={i} value={item.id}>
